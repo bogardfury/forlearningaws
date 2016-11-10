@@ -31,6 +31,13 @@ define('DB_PASSWORD', 'this4You!');
 /** MySQL hostname */
 define('DB_HOST', 'mytestdb.c7umwrirwvhl.us-east-1.rds.amazonaws.com');
 
+/*
+for local
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'root');
+define('DB_HOST', 'localhost');
+*/
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
