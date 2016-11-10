@@ -1,2 +1,2 @@
-<h1>is it working?</h1>
+<h1>ALSO - is it working?</h1>
 <?php phpinfo(); ?>
