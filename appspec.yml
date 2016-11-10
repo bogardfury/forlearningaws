@@ -11,3 +11,14 @@ permissions:
      mode: 755
      type:
        - file
+hooks:
+   BeforeInstall:
+    - location: scripts/cleanhtml.sh
+      runas: root
+   AfterInstall:
+    - location: scripts/configureWP.sh
+      runas: root
+    - location: scripts/setNginxConf.sh
+      runas: root
+    - location: scripts/restartPackages.sh
+      runas: root
