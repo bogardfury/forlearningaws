@@ -1,5 +1,2 @@
 User-Agent: *
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-
-Sitemap: http://54.210.190.65/sitemap_index.xml
+Disallow: /
